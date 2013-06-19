@@ -40,3 +40,21 @@ section {
     width: 100%; }
     section img:last-child {
       margin-right: 0; }
+
+footer {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  footer:before, footer:after {
+    content: " ";
+    display: table; }
+  footer:after {
+    clear: both; }
+  footer img {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 100%; }
+    footer img:last-child {
+      margin-right: 0; }
