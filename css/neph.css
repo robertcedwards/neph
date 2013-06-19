@@ -1,0 +1,42 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+header {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  header:before, header:after {
+    content: " ";
+    display: table; }
+  header:after {
+    clear: both; }
+  header h1 a span {
+    display: none; }
+  header h1 a img {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 100%; }
+    header h1 a img:last-child {
+      margin-right: 0; }
+
+section {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  section:before, section:after {
+    content: " ";
+    display: table; }
+  section:after {
+    clear: both; }
+  section img {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 100%; }
+    section img:last-child {
+      margin-right: 0; }
