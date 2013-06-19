@@ -1,19 +1,13 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
+img{@include span-columns(12);}
 header{
 	@include outer-container;
 	h1{
-		a{
-		span {display:none;}
-		img{@include span-columns(12);}
-		}
+	 a{
+	  span {display:none;}
+	  }
+	 }
 	}
-	}
-section{
-	@include outer-container;
-	img{@include span-columns(12);}
-	}
-footer{
-	@include outer-container;
-	img{@include span-columns(12);}
-}
+section{@include outer-container;}
+footer{@include outer-container;}

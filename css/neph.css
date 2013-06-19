@@ -3,6 +3,14 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+img {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 100%; }
+  img:last-child {
+    margin-right: 0; }
+
 header {
   *zoom: 1;
   max-width: 68em;
@@ -15,13 +23,6 @@ header {
     clear: both; }
   header h1 a span {
     display: none; }
-  header h1 a img {
-    display: block;
-    float: left;
-    margin-right: 2.35765%;
-    width: 100%; }
-    header h1 a img:last-child {
-      margin-right: 0; }
 
 section {
   *zoom: 1;
@@ -33,13 +34,6 @@ section {
     display: table; }
   section:after {
     clear: both; }
-  section img {
-    display: block;
-    float: left;
-    margin-right: 2.35765%;
-    width: 100%; }
-    section img:last-child {
-      margin-right: 0; }
 
 footer {
   *zoom: 1;
@@ -51,10 +45,3 @@ footer {
     display: table; }
   footer:after {
     clear: both; }
-  footer img {
-    display: block;
-    float: left;
-    margin-right: 2.35765%;
-    width: 100%; }
-    footer img:last-child {
-      margin-right: 0; }
