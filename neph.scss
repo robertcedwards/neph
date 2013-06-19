@@ -1,6 +1,11 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
-img{@include span-columns(12);}
+body{background:black;}
+img{
+	@include span-columns(12);
+	border-radius:1px;
+
+}
 header{
 	@include outer-container;
 	h1{
